@@ -29,8 +29,6 @@ Epidemiology
 - LinkedIn: Erick Yegon, PhD | LinkedIn[https://www.linkedin.com/in/erick-yegon-phd-4116961b4/]
 - Address: P.O. Box 61115-00200, Lavington, Nairobi, Kenya
 
-😄 Pronouns: He/Him
-
 ⚡ Fun fact: I have a deep passion for leveraging machine learning tools to drive impactful changes in public health, especially in the intersection of women's health and economic empowerment.
 
 🛠 Skills
