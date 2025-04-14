@@ -1,76 +1,85 @@
+# Hi there, I'm Erick Yegon 👋
+**Research Scientist | Epidemiologist | ML & AI Enthusiast**
 
-👋 Hi, I'm @erickyegon
-About Me
-I'm an accomplished Research Scientist specializing in epidemiological research that intersects women and child health with women's economic empowerment. My expertise lies in using innovative machine learning tools and artificial intelligence to analyze and forecast reproductive health outcomes, with the ultimate goal of reducing maternal deaths.
-👀 I'm interested in ...
+I am an accomplished Research Scientist specializing in epidemiological research at the intersection of women’s and child health with women’s economic empowerment. My work focuses on harnessing innovative machine learning and AI tools to analyze and forecast reproductive health outcomes, with the ultimate aim of reducing maternal mortality rates and influencing data-driven policy decisions.
 
-Epidemiology
-- Women's health and empowerment
-- Machine learning and AI applications in healthcare
-- Data-driven policy advocacy
-- Global public health initiatives
+---
 
-🌱 I'm currently learning ...
+## 👀 Interests
+- **Epidemiology** and public health research  
+- **Women’s health and economic empowerment**  
+- **Machine learning** and **AI** applications in healthcare  
+- **Data-driven policy advocacy** for global health  
+- **Global public health initiatives**  
 
-- Advanced AI techniques for health outcome prediction
-- Latest developments in reproductive health research
-- Innovative approaches to women's economic empowerment
+---
 
-💞️ I'm looking to collaborate on ...
+## 🌱 Currently Learning
+- Advanced **AI techniques** for health outcome prediction  
+- Latest developments in **reproductive health** research  
+- **Innovative approaches** to women’s economic empowerment  
 
-- Multidisciplinary research projects in public health
-- AI-driven solutions for improving maternal health outcomes
-- Data analysis initiatives focused on gender equality and health
-- Policy-oriented research in women's empowerment
+---
 
-📫 How to reach me:
-- Email: keyegon@gmail.com
-- Phone: +254739579369
-- LinkedIn: Erick Yegon, PhD | LinkedIn[https://www.linkedin.com/in/erick-yegon-phd-4116961b4/]
-- Address: P.O. Box 61115-00200, Lavington, Nairobi, Kenya
+## 💞️ Open to Collaborate On
+- **Multidisciplinary public health** research projects  
+- **AI-driven solutions** for improving maternal health outcomes  
+- **Data analysis** initiatives focused on gender equality and health  
+- **Policy-oriented research** in women’s empowerment  
 
-⚡ Fun fact: I have a deep passion for leveraging machine learning tools to drive impactful changes in public health, especially in the intersection of women's health and economic empowerment.
+---
 
-🛠 Skills
+## 📫 How to Reach Me
+- **Email:** [keyegon@gmail.com](mailto:keyegon@gmail.com)  
+- **Phone:** +254 739 579 369  
+- **LinkedIn:** [Erick Yegon, PhD](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/)  
+- **Address:** P.O. Box 61115-00200, Lavington, Nairobi, Kenya  
 
-- Artificial Intelligence & Machine Learning
-- Epidemiological Research
-- Project Management
-- Data Analysis & Statistics
-- Scientific Writing & Publication
-- Policy Advocacy
-- Team Leadership & Mentoring
+---
 
-🎓 Education
+## ⚡ Fun Fact
+I’m deeply passionate about leveraging **machine learning tools** to drive meaningful change in public health—especially for women’s health and economic empowerment.
 
-- Ph.D. in Epidemiology, Jomo Kenyatta University of Agriculture & Technology
-- M.Sc. in Health Systems Management, Kenya Methodist University
-- B.Sc. in Statistics, University of Nairobi
+---
 
-💻 Technical Skills
+## 🛠 Professional Skills
+- **Artificial Intelligence & Machine Learning**  
+- **Epidemiological Research**  
+- **Project Management**  
+- **Data Analysis & Statistics**  
+- **Scientific Writing & Publication**  
+- **Policy Advocacy**  
+- **Team Leadership & Mentoring**
 
-- Python (pandas, Polars NumPy, scikit-learn, TensorFlow, PyTorch, XGBoost)
-- R (ggplot2, dplyr, caret, shiny)
-- SQL (MySQL, PostgreSQL)
-- NoSQ Mongo
-- Microsoft Office Suite
-- Power BI
+---
 
-🏅 Certifications
+## 🎓 Education
+- **Ph.D. in Epidemiology** | Jomo Kenyatta University of Agriculture & Technology  
+- **M.Sc. in Health Systems Management** | Kenya Methodist University  
+- **B.Sc. in Statistics** | University of Nairobi  
 
-- MongoDB Python Developer Path (MongoDB, Jun 2024)
-- Open Source Models with Hugging Face (DeepLearning.AI, Jun 2024)
-- Building LLM Applications using Prompt Engineering (Analytics Vidhya, Mar 2024)
-- Excel: Mother of Business Intelligence (Codebasics, Jan 2024)
-- KaggleX BiPOC Mentorship Program
-- Certified Data Scientist (365 Data Science)
-- Professional Data Scientist (DataCamp)
-- Google Data Analytics
-- John Hopkins Data Science Program
+---
 
+## 💻 Technical Skills
+- **Python:** pandas, Polars, NumPy, scikit-learn, TensorFlow, PyTorch, XGBoost  
+- **R:** ggplot2, dplyr, caret, shiny  
+- **SQL:** MySQL, PostgreSQL  
+- **NoSQL:** MongoDB  
+- **BI & Productivity:** Power BI, Microsoft Office Suite  
 
-<!---
-erickyegon/erickyegon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
 
+## 🏅 Certifications
+- **MongoDB Python Developer Path** (MongoDB, Jun 2024)  
+- **Open Source Models with Hugging Face** (DeepLearning.AI, Jun 2024)  
+- **Building LLM Applications using Prompt Engineering** (Analytics Vidhya, Mar 2024)  
+- **Excel: Mother of Business Intelligence** (Codebasics, Jan 2024)  
+- **KaggleX BiPOC Mentorship Program**  
+- **Certified Data Scientist** (365 Data Science)  
+- **Professional Data Scientist** (DataCamp)  
+- **Google Data Analytics**  
+- **John Hopkins Data Science Program**
+
+---
+
+*Thank you for visiting my profile! I look forward to connecting, collaborating, and contributing to impactful projects.*
