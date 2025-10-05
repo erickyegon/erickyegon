@@ -14,7 +14,7 @@
 
 <div align="center">
   
-🌍 **Based in Nairobi, Kenya** | 📧 **keyegon@gmail.com** | 📱 **+254 739 579 369**
+🌍 **Based in Richmond Kentucky USA** | 📧 **keyegon@gmail.com** | 📱 **+1 859-353-1319**
 
 </div>
 
