@@ -1,210 +1,132 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/erickyegon/erickyegon/main/profile-banner.png" alt="Erick Yegon - Research Scientist | Epidemiologist | ML & AI" width="100%">
-  <img src="https://media.giphy.com/media/hvRJEFo5oJsuhTzQWJ/giphy.gif" width="50" style="margin-top: 10px;">
-  
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2E96F7&center=true&vCenter=true&width=600&lines=Research+Scientist+%26+Epidemiologist;ML+%26+AI+Enthusiast;Women's+Health+Advocate;Data-Driven+Policy+Researcher)
+  <img src="https://raw.githubusercontent.com/erickyegon/erickyegon/main/profile-banner.png" width="100%" alt="Erick Yegon – Data Scientist | ML Engineer | AI Engineer"/>
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=1000&color=2E96F7&center=true&vCenter=true&width=800&lines=Data+Scientist+%7C+Machine+Learning+Engineer+%7C+AI+Engineer;End-to-End+ML+Systems+%7C+Applied+AI;Production-Ready+Models+%26+Decision+Intelligence)
 
 </div>
 
 ---
 
-<p align="center">
-  I am an accomplished <strong>Research Scientist</strong> specializing in epidemiological research at the intersection of <strong>women's and child health</strong> with <strong>women's economic empowerment</strong>. My work focuses on harnessing innovative machine learning and AI tools to analyze and forecast reproductive health outcomes, with the ultimate aim of reducing maternal mortality rates and influencing data-driven policy decisions.
-</p>
+# 👋 Erick Yegon
 
-<div align="center">
-  
-🌍 **Based in Richmond Kentucky USA** | 📧 **keyegon@gmail.com** | 📱 **+1 859-353-1319**
+I am a **Data Scientist, Machine Learning Engineer, and Applied AI Engineer** with deep experience designing and building **end-to-end ML systems**—from raw data ingestion and feature engineering to modeling, evaluation, explainability, and deployment-ready pipelines.
 
-</div>
+My work focuses on **applied machine learning**, **LLM-powered systems**, and **decision intelligence**, with a strong emphasis on:
+- clean architecture  
+- reproducibility  
+- interpretability  
+- real-world usability  
 
----
+I bring a rare combination of **strong statistical foundations**, **ML engineering discipline**, and **domain-driven problem solving**.
 
-## 🚀 Featured Projects
-
-<div align="left">
-  
-### 🔬 [Maternal Health Prediction Model](URL_TO_YOUR_REPO_1)
-<img src="https://img.shields.io/badge/Status-In_Development-yellow?style=flat-square" alt="Status">
-
-A machine learning model that predicts maternal health outcomes using epidemiological data to reduce mortality rates and improve healthcare delivery in underserved communities.
-
-**Technologies:** `Python` `TensorFlow` `Epidemiological Data` `Docker` `Flask`
+📍 Richmond, Kentucky, USA  
+📧 keyegon@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/erick-yegon-phd-4116961b4/
 
 ---
 
-### 📊 [Women's Economic Empowerment Analytics](URL_TO_YOUR_REPO_2)
-<img src="https://img.shields.io/badge/Status-Published-brightgreen?style=flat-square" alt="Status">
+## 🚀 Selected Projects (Representative Work)
 
-Statistical analysis and visualization platform examining the correlation between women's economic empowerment and health outcomes across sub-Saharan Africa.
+### 🧠 Automated Research & Report Generation (AI Agents)
+**Repository:** https://github.com/erickyegon/Automated-Research-Report-Generation-
 
-**Technologies:** `R` `ggplot2` `Statistical Modeling` `Shiny` `Public Health Datasets`
+A **multi-agent AI system** that automates complex research workflows including information retrieval, synthesis, validation, and structured report generation.
 
----
+**Key Contributions**
+- Designed agent-based architecture for task decomposition  
+- Implemented Retrieval-Augmented Generation (RAG) pipelines  
+- Built modular, API-driven services for research automation  
+- Produced structured, publication-ready outputs  
 
-### 🏥 [Healthcare Policy Dashboard](URL_TO_YOUR_REPO_3)
-<img src="https://img.shields.io/badge/Status-Live-success?style=flat-square" alt="Status">
-
-Interactive dashboard for policymakers to visualize health metrics and make data-driven decisions for reproductive health programs.
-
-**Technologies:** `SQL` `Power BI` `Data Visualization` `Azure` `Reporting`
-
-</div>
+**Technologies**
+`Python` · `LangGraph` · `FastAPI` · `Vector Databases` · `LLMs` · `React`
 
 ---
 
-## 🎯 My Focus & Interests
+### 📊 Insurance Premium Prediction (Machine Learning + MLOps)
+**Repository:** https://github.com/erickyegon/insurance-premium-prediction-ml
 
-<table>
-<tr>
-<td width="50%">
+An **end-to-end supervised ML system** for predicting annual health insurance premiums using demographic, lifestyle, and policy attributes.
 
-### 🔬 **Research & Analysis**
-- Epidemiology & Public Health research
-- Women's Health & Economic Empowerment
-- Population health dynamics
-- Evidence-based policy development
+**Key Contributions**
+- Feature engineering and preprocessing pipelines  
+- Model training, tuning, and evaluation (regression)  
+- Performance diagnostics and explainability (SHAP)  
+- Modular project structure aligned with MLOps best practices  
 
-</td>
-<td width="50%">
-
-### 🤖 **AI & Technology**
-- Machine Learning & AI in Healthcare
-- Health outcome prediction models
-- Data-driven policy advocacy
-- Global public health tech solutions
-
-</td>
-</tr>
-</table>
+**Technologies**
+`Python` · `pandas` · `NumPy` · `scikit-learn` · `XGBoost` · `SHAP`
 
 ---
 
-## 🌱 Currently Learning & Growing
+### 🛒 E-Commerce Product Intelligence Assistant
+**Repository:** https://github.com/erickyegon/ecomm-prod-assistant
 
-- 🚀 **Advanced AI Techniques** for health outcome prediction
-- 💡 **Cutting-Edge Reproductive Health Research** and latest discoveries  
-- 📈 **Innovative Women's Economic Empowerment Approaches** and community uplift strategies
-- 🔬 **Next-generation epidemiological methodologies** for complex health challenges
+An AI-powered assistant for **product analytics and decision support** in e-commerce settings.
 
----
+**Key Contributions**
+- Product insight extraction and analysis  
+- NLP-based interpretation of product data  
+- LLM-powered assistance for decision-making workflows  
 
-## 👋 Let's Collaborate!
-
-I'm enthusiastic about joining forces on projects related to:
-
-<div align="center">
-
-```mermaid
-mindmap
-  root((Collaboration))
-    Public Health Research
-      Multidisciplinary projects
-      Epidemiological studies
-      Maternal health initiatives
-    AI/ML Solutions
-      Healthcare predictions
-      Outcome forecasting
-      Policy support tools
-    Women's Empowerment
-      Economic analysis
-      Health equity research
-      Community programs
-    Open Source
-      Healthcare tools
-      Educational content
-      Research frameworks
-```
-
-</div>
-
-- 👨‍👩‍👧‍👦 **Multidisciplinary Public Health Research** - Bridging disciplines for comprehensive solutions
-- 💻 **AI-Driven Solutions for Maternal Health** - Developing technologies to save lives
-- 📊 **Data Analysis for Gender Equality & Health** - Unlocking insights to foster equity
-- 📜 **Policy-Oriented Research in Women's Empowerment** - Shaping impactful change through evidence
+**Technologies**
+`Python` · `NLP` · `LLM APIs` · `Data Analysis`
 
 ---
 
-## 🛠️ Skills & Expertise
+## 🧠 Core Competencies
 
-<div align="center">
-  
-### Professional Skills
-**Artificial Intelligence & Machine Learning** | **Epidemiological Research** | **Project Management** | **Data Analysis & Statistics** | **Scientific Writing & Publication** | **Policy Advocacy** | **Team Leadership & Mentoring**
-
-### Technical Arsenal
-
-**Programming Languages & Frameworks**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**AI/ML Libraries & Tools**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
-
-**Databases & Analytics**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)
-
-**Detailed Technical Proficiencies:**
-- **Python:** pandas, Polars, NumPy, scikit-learn, TensorFlow, PyTorch, XGBoost
-- **R:** ggplot2, dplyr, caret, shiny  
-- **SQL:** MySQL, PostgreSQL | **NoSQL:** MongoDB
-- **BI & Productivity:** Power BI, Microsoft Office Suite
-
-</div>
+- End-to-end machine learning pipelines  
+- Feature engineering & model evaluation  
+- Supervised and unsupervised learning  
+- NLP & LLM application development  
+- Retrieval-Augmented Generation (RAG)  
+- Data-driven decision systems  
+- Research-to-production workflows  
 
 ---
 
-## 🏆 Certifications & Achievements
+## 🛠️ Technical Stack
+
+### Programming & Data
+- **Python**, **SQL**, **R**
+- pandas, NumPy, Polars
+
+### Machine Learning & AI
+- scikit-learn, XGBoost
+- TensorFlow, PyTorch
+- NLP, LLMs, prompt engineering
+
+### Data & Analytics
+- PostgreSQL, MongoDB
+- Power BI, statistical modeling, visualization
+
+### Engineering & Architecture
+- Modular ML pipelines
+- FastAPI-based services
+- Experiment tracking & reproducibility
+- Deployment-ready project structures
+
+---
+
+## 🎓 Education
+
+- **PhD – Epidemiology**  
+  *(Advanced quantitative methods, statistical modeling, applied ML)*
+
+- **MSc – Health Systems Management**
+
+- **BSc – Statistics**
+
+> All degrees evaluated as **U.S. equivalent**
+
+---
+
+## 📊 GitHub Overview
 
 <div align="center">
 
-| 🎯 **AI & Machine Learning** | 🗓️ **Year** | 🏢 **Provider** |
-|------------------------------|-------------|------------------|
-| MongoDB Python Developer Path | 2024 | MongoDB |
-| Open Source Models with Hugging Face | 2024 | DeepLearning.AI |
-| Building LLM Applications using Prompt Engineering | 2024 | Analytics Vidhya |
-
-| 📊 **Data Science & Analytics** | 🗓️ **Year** | 🏢 **Provider** |
-|---------------------------------|-------------|------------------|
-| Excel: Mother of Business Intelligence | 2024 | Codebasics |
-| Professional Data Scientist | 2024 | DataCamp |
-| Certified Data Scientist | 2024 | 365 Data Science |
-| Google Data Analytics | 2024 | Google |
-| John Hopkins Data Science Program | 2024 | Johns Hopkins |
-
-| 🎖️ **Special Programs** | 🗓️ **Year** |
-|-------------------------|-------------|
-| KaggleX BiPOC Mentorship Program | 2024 |
-
-</div>
-
----
-
-## 🎓 Education Background
-
-| **Degree** | **Institution** | **Specialization** |
-|------------|-----------------|-------------------|
-| **Ph.D. in Epidemiology** | Jomo Kenyatta University of Agriculture & Technology | Research Methodology & Health Systems |
-| **M.Sc. in Health Systems Management** | Kenya Methodist University | Healthcare Administration |
-| **B.Sc. in Statistics** | University of Nairobi | Statistical Analysis & Data Science |
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  
-![Erick's GitHub stats](https://github-readme-stats.vercel.app/api?username=erickyegon&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erickyegon&show_icons=true&theme=tokyonight&hide_border=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=erickyegon&layout=compact&theme=tokyonight&hide_border=true)
 
@@ -212,61 +134,20 @@ mindmap
 
 ---
 
-## 🎬 Featured Content & Platforms
+## 🤝 Open to Opportunities
 
-<div align="center">
+I am open to roles including:
 
-### 📺 DataStride YouTube Channel
-*Creating educational content on data science, AI, and public health research*
+- **Data Scientist**
+- **Machine Learning Engineer**
+- **AI / Applied AI Engineer**
 
-[![YouTube](https://img.shields.io/badge/Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DataStride)
-
-### 🌐 Professional Portfolio
-*Showcasing real-world projects in epidemiology and machine learning*
-
-[![Portfolio](https://img.shields.io/badge/View_Portfolio-2b58f8?style=for-the-badge&logo=codepen&logoColor=white)](https://codebasics.io/portfolio/Erick-Kiprotich-Yegon)
-
-</div>
-
----
-
-## 📬 Get in Touch & Connect
-
-<div align="center">
-  
-📧 **Email:** [keyegon@gmail.com](mailto:keyegon@gmail.com)  
-📞 **Phone:** +254 739 579 369  
-🔗 **LinkedIn:** [Erick Yegon, PhD](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/)  
-🎥 **YouTube:** [DataStride](https://www.youtube.com/@DataStride)  
-🌐 **Portfolio:** [Erick Kiprotich Yegon's Portfolio](https://codebasics.io/portfolio/Erick-Kiprotich-Yegon)  
-📍 **Address:** P.O. Box 61115-00200, Lavington, Nairobi, Kenya
-
-</div>
-
----
-
-## 🌟 Fun Fact!
-
-I'm deeply passionate about leveraging **machine learning tools** to drive meaningful change in public health—especially for women's health and economic empowerment.
+I am particularly interested in teams building **real, production-grade ML systems** that move beyond experimentation into impact.
 
 ---
 
 <p align="center">
-  <em>Thank you for visiting my profile! I look forward to connecting, collaborating, and contributing to impactful projects.</em>
-  <br><br>
-  
-  <!-- Social Badges -->
-  <a href="https://www.linkedin.com/in/erick-yegon-phd-4116961b4/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.youtube.com/@DataStride" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
-  <a href="https://codebasics.io/portfolio/Erick-Kiprotich-Yegon" target="_blank"><img src="https://img.shields.io/badge/Portfolio-2b58f8?style=for-the-badge&logo=codepen&logoColor=white" alt="Portfolio"></a>
-  <a href="mailto:keyegon@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  
-  <br><br>
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=erickyegon&color=blueviolet&style=for-the-badge)
-  
-  <br>
-  
-  **💡 "Data-driven insights today, healthier communities tomorrow"**
-
+  <em>Turning data into deployable intelligence.</em>
 </p>
+
+![Profile Views](https://komarev.com/ghpvc/?username=erickyegon&color=blueviolet&style=flat)
