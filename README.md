@@ -118,7 +118,7 @@ survival · lme4 · tidymodels · ggplot2
 | **MSc** | Kenya Methodist University | Health Systems Management |
 | **BSc** | University of Nairobi | Statistics |
 
-**Adjunct Professor** — 12 years teaching Biostatistics & Epidemiology to PhD students; supervised 87 doctoral candidates
+**Adjunct Professor** — 12 years teaching Biostatistics & Epidemiology to PhD students; supervised 7 doctoral candidates
 
 **Certifications:** AWS for Data Science & Analytics · Master Machine Learning for Data Science (DataCamp) · Google Data Analyst Professional · KaggleX BiPOC Mentorship Program
 
