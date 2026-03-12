@@ -1,5 +1,5 @@
 # Erick Kiprotich Yegon, PhD
-### Director of Research & Data Science | Real-World Evidence | Clinical AI | PhD Epidemiologist
+### Data Scientist · Healthcare AI & Analytics · Real-World Evidence · Causal Inference
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--7055--4848-A6CE39?style=flat&logo=orcid)](https://orcid.org/0000-0002-7055-4848)
@@ -10,137 +10,149 @@
 
 ---
 
-## About Me
+## What I Do
 
-I lead evidence generation and data science at scale. As **Global Director of Performance, Evidence & Insights at Living Goods**, I direct a 25-person team of epidemiologists, data scientists, and clinical researchers generating real-world evidence for health programs serving **8.5 million beneficiaries** across Kenya, Uganda, and Burkina Faso — with a $2M+ annual research portfolio.
+I design and ship **production data science systems** — ML pipelines, causal inference engines, AI platforms, and real-time analytics infrastructure — applied to healthcare and population health problems at scale.
 
-My career spans two tracks I deliberately keep sharp in parallel:
+My background combines **hands-on engineering** with deep **quantitative methodology**: I build the models *and* I understand the math behind them.
 
-**Research & Evidence Leadership** — designing and executing causal inference studies, cost-effectiveness analyses, and real-world evidence programs that inform clinical decisions, drive policy, and secure funding. Published **30+ peer-reviewed articles** including *The Lancet Global Health* and *Implementation Science*, as first and senior author.
+**Core areas:**
 
-**Hands-On Data Science & ML Engineering** — building production AWS pipelines, deploying predictive models in Python and R, and developing LLM-powered applications, RAG systems, and multi-agent architectures. This GitHub is where that technical depth lives.
+- 🤖 **AI / LLM Systems** — RAG pipelines, multi-agent architectures, healthcare Q&A platforms
+- 🧠 **Machine Learning & MLOps** — end-to-end pipelines, model validation, SHAP explainability, CI/CD
+- 📊 **Healthcare Analytics** — risk stratification, population health modeling, clinical decision intelligence
+- 🔬 **Causal Inference & RWE** — PSM, DiD, ITS, TMLE, SuperLearner — production-grade, not just academic
 
-> *The repositories here reflect the standard I hold my teams to — not experimentation for its own sake, but production-oriented, reproducible, and deployable systems.*
-
----
-
-## 🏆 Career Impact
-
-| Metric | Impact |
-|--------|--------|
-| Team Leadership | 25+ epidemiologists, data scientists & researchers |
-| Research Portfolio | $2M+ annual budget; $35M+ in funding secured |
-| Beneficiaries Reached | 8.5M across Kenya, Uganda, Burkina Faso |
-| Publications | 30+ peer-reviewed articles incl. The Lancet Global Health |
-| Studies Executed | 25+ causal inference & RWE studies |
-| ML Performance | 30% improvement in health outcome prediction accuracy |
-| Infrastructure Impact | Reporting cycles cut from 10–14 days → real-time (AWS) |
+> **Philosophy:** Models that don't deploy don't matter. Data science should produce systems, not papers.
 
 ---
 
-## 🚀 Selected Projects
+## Impact at a Glance
 
-### 🤖 AI & LLM Applications
+| What I Built | Result |
+|---|---|
+| ML predictive models for health outcomes | ~30% improvement in prediction accuracy |
+| Automated data pipelines (ClickHouse + Python + dbt) | Reporting latency: 10–14 days → **real-time** |
+| Causal inference & RWE studies | 25+ production studies informing program decisions |
+| Medicare risk adjustment pipeline (U.S.) | Validated ATT of **−$391/member**, p<0.0001 |
+| Healthcare analytics platforms | Scale: **8.5M+ individuals** across multiple health systems |
+| Peer-reviewed publications | 30+ articles incl. *The Lancet Global Health* |
+
+---
+
+## Featured Projects
+
+### 🤖 AI & LLM Systems
 
 | Project | Description | Stack |
-|---------|-------------|-------|
+|---|---|---|
 | [AI-Powered Research Assistant](https://github.com/erickyegon/AI-Powered-Research-Assistant-for-Scientific-Papers) | Production RAG platform for scientific paper intelligence with modular LangGraph workflows | Python · LangGraph · LangChain · ChromaDB · FastAPI |
-| [Automated Research & Report Generation](https://github.com/erickyegon/Automated-Research-Report-Generation-) | Multi-agent system for research retrieval, synthesis, validation, and structured report generation | Python · LangGraph · FastAPI · Vector DBs · LLMs |
-| [MultiAgent Research Graph](https://github.com/erickyegon/MultiAgentResearchGraph) | AI system generating interactive knowledge graphs from NL queries using 3 specialized LLM agents | Python · LangGraph · LLMs |
-| [Healthcare Q&A RAG Platform](https://github.com/erickyegon/Healthcare-Q-A-Tool) | Enterprise healthcare RAG with semantic vector search, RBAC security & PubMed integration | Python · ChromaDB · FastAPI |
-| [Kenya Community Health AI](https://github.com/erickyegon/ushauri-ai-kenya-community-health) | AI analytics platform integrating with Kenya's national e-CHIS for 107,000 community health promoters | Python · Multi-agent AI · Health Data |
+| [Automated Research & Report Generation](https://github.com/erickyegon/Automated-Research-Report-Generation-) | Multi-agent AI system for research retrieval, synthesis and structured reporting | Python · LangGraph · FastAPI |
+| [MultiAgent Research Graph](https://github.com/erickyegon/MultiAgentResearchGraph) | AI knowledge graph generator from natural language queries | Python · LangGraph · LLMs |
+| [Healthcare Q&A RAG Platform](https://github.com/erickyegon/Healthcare-Q-A-Tool) | Enterprise healthcare knowledge retrieval with vector search and RBAC | Python · FastAPI · ChromaDB |
 
-### 📊 Machine Learning & MLOps
+---
+
+### 🧠 Machine Learning & MLOps
 
 | Project | Description | Stack |
-|---------|-------------|-------|
-| [Insurance Premium Prediction](https://github.com/erickyegon/insurance-premium-prediction-ml) | Enterprise-grade end-to-end ML system with MLOps best practices, CI/CD, SHAP explainability | Python · XGBoost · scikit-learn · MLflow · SHAP |
-| [DHS RAG System](https://github.com/erickyegon/dhs-rag-system) | Demographic & Health Survey intelligence system with semantic search | Python · RAG · Vector Search |
-| [Multimodal PDF RAG System](https://github.com/erickyegon/multimodal-pdf-rag-system) | Enterprise document intelligence with OCR, table extraction, semantic search & React UI | Python · FastAPI · React · ChromaDB |
+|---|---|---|
+| [Medicare Risk Adjustment Pipeline](https://github.com/erickyegon/medicare-raf-prototypes) | Validated U.S. Medicare RAF pipeline — ATT −$391/member, p<0.0001 | Python · R · SQL |
+| [Insurance Premium Prediction](https://github.com/erickyegon/insurance-premium-prediction-ml) | End-to-end ML pipeline with CI/CD, MLflow tracking and SHAP explainability | Python · XGBoost · MLflow · SHAP |
+| [DHS RAG System](https://github.com/erickyegon/dhs-rag-system) | Semantic intelligence system for Demographic & Health Survey datasets | Python · RAG · Vector Search |
+| [Multimodal PDF RAG System](https://github.com/erickyegon/multimodal-pdf-rag-system) | Document intelligence platform with OCR, table extraction and semantic search | Python · FastAPI · React |
 
-### 🏥 Health Data Science
+---
+
+### 📊 Healthcare Data Science
 
 | Project | Description | Stack |
-|---------|-------------|-------|
-| [Medical Diagnosis AI](https://github.com/erickyegon/Medical-Diagnosis) | ML-powered clinical diagnosis support system | Python · scikit-learn |
-| [KDHS Memory Bot](https://github.com/erickyegon/KDHSMemoryBot) | Multimodal RAG chatbot with persistent memory for Kenya DHS complex health reports | Python · RAG · OCR · Vector DB |
-| [MEL Hiring Precision AI](https://github.com/erickyegon/Hiring-Precision-AI-Assisted-Evaluation-for-High-Impact-MEL-Roles) | Dual-AI architecture for evaluating MEL candidates with comprehensive scoring | Python · LLMs · FastAPI |
+|---|---|---|
+| [Medical Diagnosis AI](https://github.com/erickyegon/Medical-Diagnosis) | ML prototype for clinical diagnostic support | Python · scikit-learn |
+| [KDHS Memory Bot](https://github.com/erickyegon/KDHSMemoryBot) | Multimodal RAG chatbot for large public health survey datasets | Python · OCR · Vector DB |
+| [Kenya Community Health AI](https://github.com/erickyegon/ushauri-ai-kenya-community-health) | AI analytics platform integrating national digital health systems | Python · Multi-Agent AI |
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
-### Languages & Core Libraries
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+**Languages**
+Python · R · SQL
 
-### Machine Learning & AI
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
+**Machine Learning**
+scikit-learn · XGBoost · PyTorch · TensorFlow · MLflow · SHAP · Survival models
 
-### Cloud & Data Infrastructure
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+**AI / LLM**
+LangChain · LangGraph · RAG · Vector Databases (ChromaDB, Pinecone) · Multi-Agent Systems · Prompt Engineering
 
-### Causal Inference & Statistical Methods (R)
-```
-tmle · tlverse · SuperLearner · MatchIt · WeightIt · CausalImpact · lmtp
-survival · lme4 · tidymodels · ggplot2
-```
+**Data Infrastructure**
+AWS (Redshift · Glue · SageMaker · S3) · ClickHouse · PostgreSQL · dbt · FastAPI · Docker · Airflow
+
+**Visualization & BI**
+Power BI · Tableau · Plotly · ggplot2
+
+**Causal & Statistical Methods**
+PSM · Difference-in-Differences · Interrupted Time Series · TMLE · SuperLearner · Bayesian modeling · Mixed-effects models · Pharmacoepidemiology
 
 ---
 
-## 📚 Research & Publications
+## Education
 
-**30+ peer-reviewed publications** as first and senior author, including:
+**PhD — Epidemiology** *(Quantitative Methods, Causal Inference & Health Data Science)*
+Advanced training in study design, statistical theory, and evidence generation — applied directly to ML model validation, experiment design, and real-world evidence production.
 
-- 📰 *The Lancet Global Health* — Cost-effectiveness of digitally-enabled community health programs
-- 📰 *Implementation Science* — Implementation research on community health systems
-- 📰 *Global Health: Science and Practice* — Real-world evidence from large-scale health programs
-- 📰 *BMC Health Services Research* — Health systems strengthening evidence
+**MSc — Health Systems Management**
+**BSc — Statistics**
 
-**Scientific Reviewer:** Frontiers in Public Health · PLOS Global Public Health
-
-**Conference Presentations:** International Conference on Family Planning (Bogotá, 2025) · Women Deliver · International Conference on Family Planning
-
----
-
-## 🎓 Education & Credentials
-
-| Degree | Institution | Field |
-|--------|-------------|-------|
-| **PhD** | Jomo Kenyatta University of Agriculture and Technology | Epidemiology |
-| **MSc** | Kenya Methodist University | Health Systems Management |
-| **BSc** | University of Nairobi | Statistics |
-
-**Adjunct Professor** — 12 years teaching Biostatistics & Epidemiology to PhD students; supervised 7 doctoral candidates
-
-**Certifications:** AWS for Data Science & Analytics · Master Machine Learning for Data Science (DataCamp) · Google Data Analyst Professional · KaggleX BiPOC Mentorship Program
+**Certifications:**
+- Stanford University — Machine Learning in Medicine
+- AWS Certified Data Science & Analytics
+- Google Data Analytics Professional Certificate
+- DataCamp Machine Learning Scientist Track
+- Generative AI (multiple platforms)
 
 ---
 
-## 💼 Open To
+## Why PhD + Data Science?
 
-I am actively seeking **Director-level roles** in:
+A common assumption: *PhD = academic researcher = not hands-on.*
 
-- 🔬 **Real-World Evidence / Health Outcomes Research** — RWE strategy, HEOR, clinical research leadership
-- 📊 **Data Science Leadership** — Director/VP of Data Science in healthcare, pharma, or clinical AI
-- 🏥 **Clinical Analytics** — Evidence generation, health economics, implementation science leadership
+That's not my profile.
 
-**Target organizations:** Healthcare technology · Pharmaceutical / biotech · Clinical AI · Health plans & payers · Global health organizations
+My PhD is in **quantitative epidemiology** — which means advanced statistics, causal modeling, experimental design, and evidence validation. These are the same foundations that make a data scientist rigorous: knowing *why* a model works, not just *that* it works.
+
+In practice, I:
+- Build and ship ML pipelines, not just analyze data
+- Design causal inference studies that hold up to scrutiny
+- Write production Python and SQL, not just R markdown
+- Lead analytics engineering alongside research
+
+The PhD makes the data science *better*. It doesn't replace it.
+
+---
+
+## Open To
+
+**Hands-on and leadership roles** across data science, healthcare analytics, and AI:
+
+- Senior / Principal Data Scientist
+- Healthcare Data Scientist
+- Clinical Data Scientist
+- Population Health Analyst / Analytics Lead
+- Real-World Evidence Scientist / Analyst
+- HEOR Data Scientist
+- Decision Science / Advanced Analytics
+- Director / Associate Director, Data Science or Epidemiology
+
+**Target sectors:**
+Pharma · Biotech · CRO · Health tech · Payers & Insurers · Clinical AI · Population health
 
 ---
 
 <div align="center">
 
-*Director-level leadership backed by hands-on technical depth.*
-*Evidence generation that moves from analysis to impact.*
+**Data Science · Healthcare Analytics · AI Systems · Causal Inference · Real-World Evidence**
 
-📩 **keyegon@gmail.com** &nbsp;|&nbsp; 🔗 **[LinkedIn](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/)** &nbsp;|&nbsp; 📊 **[Portfolio](https://codebasics.io/portfolio/ErickKiprotich-Yegon)**
+📩 **keyegon@gmail.com** &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/) &nbsp;|&nbsp; 🌐 [Portfolio](https://codebasics.io/portfolio/ErickKiprotich-Yegon)
 
 </div>
