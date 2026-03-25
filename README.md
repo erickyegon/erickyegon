@@ -14,12 +14,12 @@
 
 I design and ship **production data science systems** — ML pipelines, causal inference engines, AI platforms, and real-time analytics infrastructure — applied to healthcare and population health problems at scale.
 
-My background combines **hands-on engineering** with deep **quantitative methodology**: I build the models *and* I understand the math behind them.
+My background combines **hands-on engineering** with deep **quantitative methodology**: I build the models *and* I understand the math behind them. My systems have run in production against live government health databases, served predictions to frontline health workers in real time, and informed decisions affecting millions of individuals.
 
 **Core areas:**
 
 - 🤖 **AI / LLM Systems** — RAG pipelines, multi-agent architectures, healthcare Q&A platforms
-- 🧠 **Machine Learning & MLOps** — end-to-end pipelines, model validation, SHAP explainability, CI/CD
+- 🧠 **Machine Learning & MLOps** — end-to-end pipelines, model calibration, SHAP explainability, drift monitoring, CI/CD
 - 📊 **Healthcare Analytics** — risk stratification, population health modeling, clinical decision intelligence
 - 🔬 **Causal Inference & RWE** — PSM, DiD, ITS, TMLE, SuperLearner — production-grade, not just academic
 
@@ -31,6 +31,7 @@ My background combines **hands-on engineering** with deep **quantitative methodo
 
 | What I Built | Result |
 |---|---|
+| **Immunization defaulter risk engine** (Kenya MOH eCHIS · live production DB) | ROC-AUC 0.892 · 6,864 patients · 4,672 CHW areas · [live app ↗](https://immunizationengine.streamlit.app/) |
 | ML predictive models for health outcomes | ~30% improvement in prediction accuracy |
 | Automated data pipelines (ClickHouse + Python + dbt) | Reporting latency: 10–14 days → **real-time** |
 | Causal inference & RWE studies | 25+ production studies informing program decisions |
@@ -42,6 +43,18 @@ My background combines **hands-on engineering** with deep **quantitative methodo
 
 ## Featured Projects
 
+### 🧠 Machine Learning & MLOps
+
+| Project | Description | Stack |
+|---|---|---|
+| [**Immunization Defaulter Risk Engine**](https://github.com/erickyegon/immunization-defaulter-risk-engine) [![Live App](https://img.shields.io/badge/Live-App-FF4B4B?style=flat&logo=streamlit)](https://immunizationengine.streamlit.app/) | Production XGBoost pipeline predicting vaccine defaulter risk for 6,864 children across 4,672 CHW areas. Data drawn directly from Kenya Ministry of Health eCHIS. Per-patient SHAP explainability, isotonic calibration (ECE=0.023), PSI drift monitoring, RBAC Streamlit dashboard, FastAPI serving. | Python · XGBoost · SHAP · FastAPI · PostgreSQL · MLflow · Streamlit |
+| [Medicare Risk Adjustment Pipeline](https://github.com/erickyegon/medicare-raf-prototypes) | Validated U.S. Medicare RAF pipeline — ATT −$391/member, p<0.0001 | Python · R · SQL · CMS HCC |
+| [Insurance Premium Prediction](https://github.com/erickyegon/insurance-premium-prediction-ml) | End-to-end ML pipeline with CI/CD, MLflow tracking and SHAP explainability | Python · XGBoost · MLflow · SHAP |
+| [DHS RAG System](https://github.com/erickyegon/dhs-rag-system) | Semantic intelligence system for Demographic & Health Survey datasets | Python · RAG · Vector Search |
+| [Multimodal PDF RAG System](https://github.com/erickyegon/multimodal-pdf-rag-system) | Document intelligence platform with OCR, table extraction and semantic search | Python · FastAPI · React |
+
+---
+
 ### 🤖 AI & LLM Systems
 
 | Project | Description | Stack |
@@ -50,17 +63,6 @@ My background combines **hands-on engineering** with deep **quantitative methodo
 | [Automated Research & Report Generation](https://github.com/erickyegon/Automated-Research-Report-Generation-) | Multi-agent AI system for research retrieval, synthesis and structured reporting | Python · LangGraph · FastAPI |
 | [MultiAgent Research Graph](https://github.com/erickyegon/MultiAgentResearchGraph) | AI knowledge graph generator from natural language queries | Python · LangGraph · LLMs |
 | [Healthcare Q&A RAG Platform](https://github.com/erickyegon/Healthcare-Q-A-Tool) | Enterprise healthcare knowledge retrieval with vector search and RBAC | Python · FastAPI · ChromaDB |
-
----
-
-### 🧠 Machine Learning & MLOps
-
-| Project | Description | Stack |
-|---|---|---|
-| [Medicare Risk Adjustment Pipeline](https://github.com/erickyegon/medicare-raf-prototypes) | Validated U.S. Medicare RAF pipeline — ATT −$391/member, p<0.0001 | Python · R · SQL |
-| [Insurance Premium Prediction](https://github.com/erickyegon/insurance-premium-prediction-ml) | End-to-end ML pipeline with CI/CD, MLflow tracking and SHAP explainability | Python · XGBoost · MLflow · SHAP |
-| [DHS RAG System](https://github.com/erickyegon/dhs-rag-system) | Semantic intelligence system for Demographic & Health Survey datasets | Python · RAG · Vector Search |
-| [Multimodal PDF RAG System](https://github.com/erickyegon/multimodal-pdf-rag-system) | Document intelligence platform with OCR, table extraction and semantic search | Python · FastAPI · React |
 
 ---
 
@@ -80,13 +82,13 @@ My background combines **hands-on engineering** with deep **quantitative methodo
 Python · R · SQL
 
 **Machine Learning**
-scikit-learn · XGBoost · PyTorch · TensorFlow · MLflow · SHAP · Survival models
+scikit-learn · XGBoost · PyTorch · TensorFlow · MLflow · SHAP · Optuna · Survival models
 
 **AI / LLM**
 LangChain · LangGraph · RAG · Vector Databases (ChromaDB, Pinecone) · Multi-Agent Systems · Prompt Engineering
 
 **Data Infrastructure**
-AWS (Redshift · Glue · SageMaker · S3) · ClickHouse · PostgreSQL · dbt · FastAPI · Docker · Airflow
+AWS (Redshift · Glue · SageMaker · S3) · ClickHouse · PostgreSQL · dbt · FastAPI · Docker · Streamlit · Airflow
 
 **Visualization & BI**
 Power BI · Tableau · Plotly · ggplot2
@@ -122,7 +124,7 @@ That's not my profile.
 My PhD is in **quantitative epidemiology** — which means advanced statistics, causal modeling, experimental design, and evidence validation. These are the same foundations that make a data scientist rigorous: knowing *why* a model works, not just *that* it works.
 
 In practice, I:
-- Build and ship ML pipelines, not just analyze data
+- Build and ship ML pipelines against live government health databases — not toy datasets
 - Design causal inference studies that hold up to scrutiny
 - Write production Python and SQL, not just R markdown
 - Lead analytics engineering alongside research
@@ -135,7 +137,7 @@ The PhD makes the data science *better*. It doesn't replace it.
 
 **Hands-on and leadership roles** across data science, healthcare analytics, and AI:
 
-- Senior / Principal Data Scientist
+- Senior / Principal / Lead Data Scientist
 - Healthcare Data Scientist
 - Clinical Data Scientist
 - Population Health Analyst / Analytics Lead
