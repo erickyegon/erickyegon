@@ -34,6 +34,7 @@ My background combines **hands-on engineering** with deep **quantitative methodo
 |---|---|
 | **Immunization defaulter risk engine** (Kenya MOH eCHIS · live production DB) | ROC-AUC 0.892 · 6,864 patients · 4,672 CHW areas · [live app ↗](https://immunizationengine.streamlit.app/) |
 | **Microsoft Fabric Medallion Lakehouse** (YegonFabricLabs) | Bronze → Silver → Gold · Data Factory pipelines · Semantic model · Power BI |
+| **CertiAce Retail Analytics** (Fabric portfolio · DP-600) | Full Medallion lakehouse · 555K rows · DAX · KQL · RLS/OLS · deployment pipelines |
 | ML predictive models for health outcomes | ~30% improvement in prediction accuracy |
 | Automated data pipelines (ClickHouse + Python + dbt) | Reporting latency: 10–14 days → **real-time** |
 | Causal inference & RWE studies | 25+ production studies informing program decisions |
@@ -49,6 +50,7 @@ My background combines **hands-on engineering** with deep **quantitative methodo
 
 | Project | Description | Stack |
 |---|---|---|
+| [**CertiAce Retail Analytics — Fabric Portfolio**](https://github.com/erickyegon/certace-fabric-analytics) | End-to-end Microsoft Fabric project covering all DP-600 domains — Medallion (Bronze/Silver/Gold) architecture over 555K rows, Data Factory pipelines, semantic model with DAX measures, KQL real-time monitoring, RLS/OLS, and deployment pipelines | Microsoft Fabric · OneLake · KQL · DAX · T-SQL · Power BI |
 | [**YegonFabricLabs — Medallion Lakehouse**](https://github.com/erickyegon/DP600) | Enterprise Medallion architecture on Microsoft Fabric — Bronze/Silver/Gold Lakehouses, Data Factory pipelines with ForEach/Copy Data activities, Dataflow Gen2, semantic model with DAX measures, RLS, and deployment pipeline (Dev → Test → Prod) | Microsoft Fabric · OneLake · KQL · DAX · T-SQL · Power BI |
 | [**E-Commerce Intelligence Platform**](https://github.com/erickyegon/ecommerce-intelligence-platform) | Production-grade lakehouse pipeline — 1.7M rows, 6 relational tables, full Bronze → Silver → Gold Medallion architecture, analytics-ready semantic layer | Databricks · Delta Lake · SQL · Python |
 | [**Community Health Intelligence Platform**](https://github.com/erickyegon/community-health-intelligence-platform) | End-to-end community health lakehouse — Medallion pipeline, Unity Catalog RLS, AI/BI Genie, executive dashboard serving 5,000 CHWs across Kenya | Databricks · Unity Catalog · Delta Lake · Python |
