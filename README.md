@@ -115,10 +115,6 @@ PSM · Difference-in-Differences · Interrupted Time Series · TMLE · SuperLear
 ---
 
 ## Education
-
-**PhD — Epidemiology** *(Quantitative Methods, Causal Inference & Health Data Science)*
-Advanced training in study design, statistical theory, and evidence generation — applied directly to ML model validation, experiment design, and real-world evidence production.
-
 **MSc — Health Systems Management**
 **BSc — Statistics**
 
