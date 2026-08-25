@@ -1,4 +1,4 @@
-# Erick Kiprotich Yegon, PhD
+# Erick Kiprotich Yegon
 ### Fabric Analytics Engineer · Data Scientist · Healthcare AI & Analytics · Causal Inference
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/)
