@@ -1,9 +1,9 @@
 # Erick Kiprotich Yegon
-### Fabric Analytics Engineer · Data Scientist · Healthcare AI & Analytics · Causal Inference
+### Epidemiologist & Data Scientist · Real-World Evidence · Causal Inference · Healthcare AI & Analytics
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/erickyegon)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--7055--4848-A6CE39?style=flat&logo=orcid)](https://orcid.org/0000-0002-7055-4848)
-[![Portfolio](https://img.shields.io/badge/Portfolio-codebasics.io-FF6B35?style=flat)](https://codebasics.io/portfolio/ErickKiprotich-Yegon)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Project%20sites-FF6B35?style=flat)](https://erickyegon.github.io/incretin-access-value/)
 [![Email](https://img.shields.io/badge/Email-keyegon@gmail.com-D14836?style=flat&logo=gmail)](mailto:keyegon@gmail.com)
 
 📍 Richmond, Kentucky, USA &nbsp;|&nbsp; 🇺🇸 U.S. Permanent Resident — No Sponsorship Required
@@ -12,116 +12,117 @@
 
 ## What I Do
 
-I design and ship **production analytics and data science systems** — Microsoft Fabric lakehouses, ML pipelines, causal inference engines, AI platforms, and real-time analytics infrastructure — applied to healthcare and population health problems at scale.
+I have spent 17+ years in epidemiology, global health analytics, data science and agentic AI, underpinned by doctoral training in epidemiology. I build the analysis and the system around it: cohort and survival studies on real-world data, causal designs for policy questions, and the pipelines, models and apps that put results in front of decision makers.
 
-My background combines **hands-on engineering** with deep **quantitative methodology**: I build the models *and* I understand the math behind them. My systems have run in production against live government health databases, served predictions to frontline health workers in real time, and informed decisions affecting millions of individuals.
+**Core areas** (each links to a repo that shows it):
 
-**Core areas:**
+- 🔬 **Real-world evidence & causal inference:** [oncology cohort and survival analysis](https://github.com/erickyegon/oncology-rwe-nsclc), [IPTW and immortal-time-bias methods](https://github.com/erickyegon/nsclc-rwd-truth-recovery), [difference-in-differences and event-study designs](https://github.com/erickyegon/incretin-access-value)
+- 📊 **Health economics:** [Medicaid coverage and budget impact](https://github.com/erickyegon/incretin-access-value)
+- 🧠 **Machine learning for health:** [risk stratification with SHAP and calibration](https://github.com/erickyegon/immunization-defaulter-risk-engine)
+- 🤖 **AI / LLM systems:** [production RAG](https://github.com/erickyegon/clinical-doc-intelligence), [multi-agent orchestration](https://github.com/erickyegon/AgentCare)
+- 🏗️ **Data platforms:** [Microsoft Fabric](https://github.com/erickyegon/certace-fabric-analytics), [Databricks lakehouse](https://github.com/erickyegon/community-health-intelligence-platform)
 
-- 🏗️ **Microsoft Fabric & Power BI** — Lakehouse architecture, Medallion pipelines, semantic models, DAX, KQL, deployment pipelines
-- 🤖 **AI / LLM Systems** — RAG pipelines, multi-agent architectures, healthcare Q&A platforms
-- 🧠 **Machine Learning & MLOps** — end-to-end pipelines, model calibration, SHAP explainability, drift monitoring, CI/CD
-- 📊 **Healthcare Analytics** — risk stratification, population health modeling, clinical decision intelligence
-- 🔬 **Causal Inference & RWE** — PSM, DiD, ITS, TMLE, SuperLearner — production-grade, not just academic
+---
 
-> **Philosophy:** Models that don't deploy don't matter. Data science should produce systems, not papers.
+## Real-World Evidence & Oncology
+
+| Project | What it shows | Stack |
+|---|---|---|
+| [**oncology-rwe-nsclc**](https://github.com/erickyegon/oncology-rwe-nsclc) · [report](https://erickyegon.github.io/oncology-rwe-nsclc/report.html) | NSCLC survival pipeline on synthetic EHR data (Synthea → OMOP CDM → dbt → R), benchmarked against 172,582 U.S. patients from SEER. Documents a case where the synthetic data failed validation: unmodified Synthea staged every lung cancer as stage I. | R · OMOP CDM · dbt · PostgreSQL |
+| [**nsclc-rwd-truth-recovery**](https://github.com/erickyegon/nsclc-rwd-truth-recovery) | Companion project: a custom generator with a known truth, rule-based line-of-therapy derivation (98.1% whole-sequence exact match against truth), IPTW, an immortal-time-bias demonstration, and a 10-seed Monte-Carlo bias and coverage study. | Python · lifelines · scikit-learn |
+| [**incretin-access-value**](https://github.com/erickyegon/incretin-access-value) · [site](https://erickyegon.github.io/incretin-access-value/) | Public-data study of Medicaid coverage of Wegovy and Zepbound: 12.2 additional prescriptions per 1,000 enrollees per quarter (95% CI 8.4 to 16.0) and a net budget impact of about $161.3 million over five years for a 1-million-enrollee program. Tested warehouse, Quarto report, interactive budget model. | PostgreSQL · dbt · R · Quarto · Shiny |
+
+---
+
+## Healthcare Data Science & ML
+
+| Project | Description | Stack |
+|---|---|---|
+| [**Immunization Defaulter Risk Engine**](https://github.com/erickyegon/immunization-defaulter-risk-engine) [![Live App](https://img.shields.io/badge/Live-App-FF4B4B?style=flat&logo=streamlit)](https://immunizationengine.streamlit.app/) | XGBoost pipeline predicting vaccine defaulter risk for 6,864 children across 4,672 CHW areas in Kenya. Per-patient SHAP explainability, isotonic calibration (ECE 0.023), PSI drift monitoring, FastAPI serving, Streamlit dashboard. | Python · XGBoost · SHAP · FastAPI · PostgreSQL · MLflow · Optuna |
+| [Databricks Medicare Lakehouse](https://github.com/erickyegon/databricks-medicare-lakehouse) | Medicare Advantage lakehouse: medallion ETL, CMS HCC v28 risk adjustment, XGBoost + SHAP, Unity Catalog governance. | Databricks · Delta Lake · Python |
+| [Community Health Intelligence Platform](https://github.com/erickyegon/community-health-intelligence-platform) | Community health lakehouse for Kenya's CHW program: medallion pipeline, Unity Catalog row-level security, AI/BI Genie, dashboard. | Databricks · Delta Lake · dbt · Airflow |
+| [Insurance Premium Prediction](https://github.com/erickyegon/insurance-premium-prediction-ml) | End-to-end ML pipeline with CI/CD, MLflow tracking and SHAP explainability. | Python · XGBoost · MLflow · SageMaker |
+| [Within Reach](https://github.com/erickyegon/within-reach) | #TidyTuesday analysis of hospital access across 11,422 U.S. cities, with a live Shiny app. | R · Shiny |
+
+---
+
+## AI & LLM Systems
+
+| Project | Description | Stack |
+|---|---|---|
+| [Clinical Document Intelligence](https://github.com/erickyegon/clinical-doc-intelligence) | FDA drug-label RAG with 5-stage retrieval, multi-agent orchestration, clinical guardrails and 54 automated tests. | Python · FastAPI · ChromaDB |
+| [AgentCare](https://github.com/erickyegon/AgentCare) | Six-agent LangGraph orchestration for patient administration and care coordination. | Python · LangGraph · FastAPI · Next.js |
+| [Women's Health RAG](https://github.com/erickyegon/womens-health-rag) | RAG over Demographic and Health Survey reports. | Python · LangChain · LangGraph · pgvector |
+| [AI-Powered Research Assistant](https://github.com/erickyegon/AI-Powered-Research-Assistant-for-Scientific-Papers) | RAG platform for scientific papers with modular LangGraph workflows. | Python · LangGraph · Pinecone |
+| [Healthcare Q&A RAG Platform](https://github.com/erickyegon/Healthcare-Q-A-Tool) | Healthcare knowledge retrieval with vector search and role-based access. | Python · FastAPI · ChromaDB |
+| [Multimodal PDF RAG System](https://github.com/erickyegon/multimodal-pdf-rag-system) | Document intelligence with OCR, table extraction and semantic search. | Python · FastAPI · React |
+
+---
+
+## Microsoft Fabric & Power BI
+
+| Project | Description | Stack |
+|---|---|---|
+| [**CertiAce Retail Analytics**](https://github.com/erickyegon/certace-fabric-analytics) | Fabric portfolio project covering the DP-600 domains: medallion (Bronze/Silver/Gold) architecture over 555K rows, semantic model with DAX measures, KQL real-time monitoring, RLS/OLS and deployment pipelines. | Microsoft Fabric · OneLake · KQL · DAX · Power BI |
+| [E-Commerce Intelligence Platform](https://github.com/erickyegon/ecommerce-intelligence-platform) | Lakehouse pipeline: 1.7M rows, 6 relational tables, medallion architecture, conversion and segmentation models tracked in MLflow. | Databricks · Delta Lake · MLflow |
 
 ---
 
 ## Impact at a Glance
 
-| What I Built | Result |
+<!-- VERIFY: rows 5-8 and the publications row come from the previous profile README and are not stated in any repo. Confirm against resume before publishing, or delete. ORCID lists 1 work (a Lancet item); the previous text said "30+ articles incl. The Lancet Global Health". -->
+| What I built | Result |
 |---|---|
-| **Immunization defaulter risk engine** (Kenya MOH eCHIS · live production DB) | ROC-AUC 0.892 · 6,864 patients · 4,672 CHW areas · [live app ↗](https://immunizationengine.streamlit.app/) |
-| **Microsoft Fabric Medallion Lakehouse** (YegonFabricLabs) | Bronze → Silver → Gold · Data Factory pipelines · Semantic model · Power BI |
-| **CertiAce Retail Analytics** (Fabric portfolio · DP-600) | Full Medallion lakehouse · 555K rows · DAX · KQL · RLS/OLS · deployment pipelines |
+| **Immunization defaulter risk engine** (Kenya MOH eCHIS) | ROC-AUC 0.892 · 6,864 children · 4,672 CHW areas · [live app](https://immunizationengine.streamlit.app/) |
+| **Medicaid obesity-drug coverage study** | +12.2 prescriptions per 1,000 enrollees per quarter (95% CI 8.4 to 16.0); about $161.3M net over five years per 1M enrollees · [incretin-access-value](https://github.com/erickyegon/incretin-access-value) |
+| **Oncology RWD pipeline validated against a known truth** | 98.1% line-of-therapy exact match; 10-seed Monte-Carlo bias and coverage · [nsclc-rwd-truth-recovery](https://github.com/erickyegon/nsclc-rwd-truth-recovery) |
+| **CertiAce Retail Analytics** (Fabric portfolio) | Medallion lakehouse · 555K rows · DAX · KQL · RLS/OLS · deployment pipelines |
 | ML predictive models for health outcomes | ~30% improvement in prediction accuracy |
 | Automated data pipelines (ClickHouse + Python + dbt) | Reporting latency: 10–14 days → **real-time** |
-| Causal inference & RWE studies | 25+ production studies informing program decisions |
-| Medicare risk adjustment pipeline (U.S.) | Validated ATT of **−$391/member**, p<0.0001 |
+| Causal inference and RWE studies | 25+ production studies informing program decisions |
 | Healthcare analytics platforms | Scale: **8.5M+ individuals** across multiple health systems |
-| Peer-reviewed publications | 30+ articles incl. *The Lancet Global Health* |
+| Peer-reviewed publications | Including *The Lancet* · [ORCID](https://orcid.org/0000-0002-7055-4848) |
 
 ---
 
-## Featured Projects
+## Skills and where to see them
 
-### 🏗️ Microsoft Fabric & Power BI
-
-| Project | Description | Stack |
-|---|---|---|
-| [**CertiAce Retail Analytics — Fabric Portfolio**](https://github.com/erickyegon/certace-fabric-analytics) | End-to-end Microsoft Fabric project covering all DP-600 domains — Medallion (Bronze/Silver/Gold) architecture over 555K rows, Data Factory pipelines, semantic model with DAX measures, KQL real-time monitoring, RLS/OLS, and deployment pipelines | Microsoft Fabric · OneLake · KQL · DAX · T-SQL · Power BI |
-| [**YegonFabricLabs — Medallion Lakehouse**](https://github.com/erickyegon/DP600) | Enterprise Medallion architecture on Microsoft Fabric — Bronze/Silver/Gold Lakehouses, Data Factory pipelines with ForEach/Copy Data activities, Dataflow Gen2, semantic model with DAX measures, RLS, and deployment pipeline (Dev → Test → Prod) | Microsoft Fabric · OneLake · KQL · DAX · T-SQL · Power BI |
-| [**E-Commerce Intelligence Platform**](https://github.com/erickyegon/ecommerce-intelligence-platform) | Production-grade lakehouse pipeline — 1.7M rows, 6 relational tables, full Bronze → Silver → Gold Medallion architecture, analytics-ready semantic layer | Databricks · Delta Lake · SQL · Python |
-| [**Community Health Intelligence Platform**](https://github.com/erickyegon/community-health-intelligence-platform) | End-to-end community health lakehouse — Medallion pipeline, Unity Catalog RLS, AI/BI Genie, executive dashboard serving 5,000 CHWs across Kenya | Databricks · Unity Catalog · Delta Lake · Python |
-
----
-
-### 🧠 Machine Learning & MLOps
-
-| Project | Description | Stack |
-|---|---|---|
-| [**Immunization Defaulter Risk Engine**](https://github.com/erickyegon/immunization-defaulter-risk-engine) [![Live App](https://img.shields.io/badge/Live-App-FF4B4B?style=flat&logo=streamlit)](https://immunizationengine.streamlit.app/) | Production XGBoost pipeline predicting vaccine defaulter risk for 6,864 children across 4,672 CHW areas. Data drawn directly from Kenya Ministry of Health eCHIS. Per-patient SHAP explainability, isotonic calibration (ECE=0.023), PSI drift monitoring, RBAC Streamlit dashboard, FastAPI serving. | Python · XGBoost · SHAP · FastAPI · PostgreSQL · MLflow · Streamlit |
-| [Medicare Risk Adjustment Pipeline](https://github.com/erickyegon/medicare-raf-prototypes) | Validated U.S. Medicare RAF pipeline — ATT −$391/member, p<0.0001 | Python · R · SQL · CMS HCC |
-| [Insurance Premium Prediction](https://github.com/erickyegon/insurance-premium-prediction-ml) | End-to-end ML pipeline with CI/CD, MLflow tracking and SHAP explainability | Python · XGBoost · MLflow · SHAP |
-| [DHS RAG System](https://github.com/erickyegon/dhs-rag-system) | Semantic intelligence system for Demographic & Health Survey datasets | Python · RAG · Vector Search |
-| [Multimodal PDF RAG System](https://github.com/erickyegon/multimodal-pdf-rag-system) | Document intelligence platform with OCR, table extraction and semantic search | Python · FastAPI · React |
-
----
-
-### 🤖 AI & LLM Systems
-
-| Project | Description | Stack |
-|---|---|---|
-| [AI-Powered Research Assistant](https://github.com/erickyegon/AI-Powered-Research-Assistant-for-Scientific-Papers) | Production RAG platform for scientific paper intelligence with modular LangGraph workflows | Python · LangGraph · LangChain · ChromaDB · FastAPI |
-| [Healthcare Q&A RAG Platform](https://github.com/erickyegon/Healthcare-Q-A-Tool) | Enterprise healthcare knowledge retrieval with vector search and RBAC | Python · FastAPI · ChromaDB |
-| [Women's Health RAG](https://github.com/erickyegon/womens-health-rag) | Global women's health intelligence assistant using DHS reports from Kenya, Nigeria, Ghana, Ethiopia | Python · LangChain · pgvector · GPT-4o |
-| [Clinical Document Intelligence](https://github.com/erickyegon/clinical-doc-intelligence) | AI-powered FDA drug label intelligence — production RAG with 5-stage retrieval, multi-agent orchestration, 54 automated tests | Python · FastAPI · Multi-Agent |
-
----
-
-### 📊 Healthcare Data Science
-
-| Project | Description | Stack |
-|---|---|---|
-| [Databricks Medicare Lakehouse](https://github.com/erickyegon/databricks-medicare-lakehouse) | Medicare analytics lakehouse with risk adjustment modeling | Python · Databricks · Delta Lake |
-| [Kenya Community Health AI](https://github.com/erickyegon/ushauri-ai-kenya-community-health) | AI analytics platform integrating national digital health systems for 107,000 CHPs | Python · Multi-Agent AI |
-
----
-
-## Technical Stack
-
-**Microsoft Fabric & BI**
-Microsoft Fabric · Power BI · OneLake · Lakehouse · Data Warehouse · Dataflow Gen2 · Data Factory · KQL · DAX · T-SQL · Eventhouse · Deployment Pipelines · Direct Lake · Semantic Models · RLS/OLS
-
-**Languages**
-Python · R · SQL · KQL · DAX
-
-**Machine Learning**
-scikit-learn · XGBoost · PyTorch · TensorFlow · MLflow · SHAP · Optuna · Survival models
-
-**AI / LLM**
-LangChain · LangGraph · RAG · Vector Databases (ChromaDB, Pinecone, pgvector) · Multi-Agent Systems · Prompt Engineering
-
-**Data Infrastructure**
-Databricks · Delta Lake · AWS (Redshift · Glue · SageMaker · S3) · ClickHouse · PostgreSQL · dbt · FastAPI · Docker · Streamlit · Airflow
-
-**Visualization & BI**
-Power BI · Tableau · Plotly · ggplot2
-
-**Causal & Statistical Methods**
-PSM · Difference-in-Differences · Interrupted Time Series · TMLE · SuperLearner · Bayesian modeling · Mixed-effects models · Pharmacoepidemiology
+| Skill | Evidence |
+|---|---|
+| Survival analysis (Kaplan–Meier, Cox, time-varying exposure) | [oncology-rwe-nsclc](https://github.com/erickyegon/oncology-rwe-nsclc) · [nsclc-rwd-truth-recovery](https://github.com/erickyegon/nsclc-rwd-truth-recovery) |
+| Pharmacoepidemiology methods (IPTW, immortal-time bias, E-value) | [nsclc-rwd-truth-recovery](https://github.com/erickyegon/nsclc-rwd-truth-recovery) |
+| Causal inference (difference-in-differences, event study) | [incretin-access-value](https://github.com/erickyegon/incretin-access-value) |
+| OMOP CDM, dbt, PostgreSQL | [oncology-rwe-nsclc](https://github.com/erickyegon/oncology-rwe-nsclc) · [incretin-access-value](https://github.com/erickyegon/incretin-access-value) |
+| Budget impact / health economics | [incretin-access-value](https://github.com/erickyegon/incretin-access-value) |
+| R, Quarto, Shiny | [incretin-access-value](https://github.com/erickyegon/incretin-access-value) · [within-reach](https://github.com/erickyegon/within-reach) |
+| Python, scikit-learn, lifelines | [nsclc-rwd-truth-recovery](https://github.com/erickyegon/nsclc-rwd-truth-recovery) |
+| XGBoost, SHAP, calibration, drift monitoring | [immunization-defaulter-risk-engine](https://github.com/erickyegon/immunization-defaulter-risk-engine) |
+| MLflow, Optuna | [immunization-defaulter-risk-engine](https://github.com/erickyegon/immunization-defaulter-risk-engine) · [insurance-premium-prediction-ml](https://github.com/erickyegon/insurance-premium-prediction-ml) |
+| FastAPI, Docker, Streamlit | [immunization-defaulter-risk-engine](https://github.com/erickyegon/immunization-defaulter-risk-engine) |
+| AWS SageMaker | [insurance-premium-prediction-ml](https://github.com/erickyegon/insurance-premium-prediction-ml) |
+| PyTorch (CNN) | [FreshHarvest](https://github.com/erickyegon/FreshHarvest) |
+| RAG, vector search (ChromaDB, pgvector, Pinecone) | [clinical-doc-intelligence](https://github.com/erickyegon/clinical-doc-intelligence) · [womens-health-rag](https://github.com/erickyegon/womens-health-rag) · [AI-Powered-Research-Assistant](https://github.com/erickyegon/AI-Powered-Research-Assistant-for-Scientific-Papers) |
+| LangChain, LangGraph, multi-agent systems | [AgentCare](https://github.com/erickyegon/AgentCare) · [clinical-doc-intelligence](https://github.com/erickyegon/clinical-doc-intelligence) |
+| Microsoft Fabric, OneLake, KQL, deployment pipelines | [certace-fabric-analytics](https://github.com/erickyegon/certace-fabric-analytics) |
+| Power BI, DAX, RLS/OLS | [certace-fabric-analytics](https://github.com/erickyegon/certace-fabric-analytics) |
+| Databricks, Delta Lake, Unity Catalog | [community-health-intelligence-platform](https://github.com/erickyegon/community-health-intelligence-platform) · [databricks-medicare-lakehouse](https://github.com/erickyegon/databricks-medicare-lakehouse) |
+| Airflow | [community-health-intelligence-platform](https://github.com/erickyegon/community-health-intelligence-platform) |
 
 ---
 
 ## Education
-**MSc — Health Systems Management**
-**BSc — Statistics**
+
+| Degree | Institution |
+|---|---|
+| **PhD, Epidemiology** | Jomo Kenyatta University of Agriculture and Technology (JKUAT) |
+| **MSc, Health Systems Management** | Kenya Methodist University |
+| **BSc, Statistics** | University of Nairobi |
 
 ---
 
 ## Certifications
 
+<!-- VERIFY: confirm exact credential names and status for each row, in particular the AWS and Stanford entries. -->
 | Certification | Issuer | Status |
 |---|---|---|
 | **Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)** | Microsoft | ✅ 2026 |
@@ -134,44 +135,28 @@ PSM · Difference-in-Differences · Interrupted Time Series · TMLE · SuperLear
 
 ---
 
-## Why PhD + Data Science + Fabric?
+## How I Work
 
-A common assumption: *PhD = academic researcher = not hands-on.*
-
-That's not my profile.
-
-My PhD is in **quantitative epidemiology** — which means advanced statistics, causal modeling, experimental design, and evidence validation. These are the same foundations that make a data scientist rigorous: knowing *why* a model works, not just *that* it works.
-
-What makes my profile unusual: I combine **enterprise analytics engineering** (Fabric, Power BI, Medallion architecture) with **deep ML/AI capability** (RAG, causal inference, production MLOps) and **domain expertise** (17+ years in global health, 30+ peer-reviewed publications including The Lancet).
-
-Most Fabric engineers don't have PhD-level statistical depth.
-Most data scientists can't build enterprise semantic models and deployment pipelines.
-I do both.
+I pair statistical rigor with working software. I check my methods against a known answer where I can, document where a data source fails validation, and ship analyses as reproducible pipelines. The [NSCLC truth-recovery study](https://github.com/erickyegon/nsclc-rwd-truth-recovery) and the [Synthea-versus-SEER benchmark](https://github.com/erickyegon/oncology-rwe-nsclc) are examples.
 
 ---
 
 ## Open To
 
-**Hands-on and leadership roles** across analytics engineering, data science, and healthcare AI:
+**Hands-on and leadership roles** across real-world evidence, epidemiology, health data science and applied AI:
 
-- **Analytics Engineer / Senior Analytics Engineer**
-- **Microsoft Fabric Engineer / Architect**
-- **Power BI Developer / Architect**
-- **Senior / Principal / Lead Data Scientist**
-- **Healthcare Data Scientist / Clinical Data Scientist**
+- **Real-World Evidence Scientist / Epidemiologist**
+- **Senior / Principal / Lead Data Scientist** (healthcare and clinical)
 - **Population Health Analytics Lead**
+- **Analytics Engineer / Microsoft Fabric Engineer**
 - **Director / VP, Data & Analytics**
-- **Real-World Evidence Scientist**
 
-**Target sectors:**
-Health Systems · Payers & Insurers · Pharma · Biotech · CRO · Health Tech · Global Health · Federal Contractors · Microsoft Partners
+**Target sectors:** Pharma · Biotech · CRO · Health Systems · Payers & Insurers · Health Tech · Global Health · Federal Contractors
 
 ---
 
 <div align="center">
 
-**Microsoft Fabric · Power BI · Healthcare Analytics · AI Systems · Causal Inference · Real-World Evidence**
-
-📩 **keyegon@gmail.com** &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/erick-yegon-phd-4116961b4/) &nbsp;|&nbsp; 🌐 [Portfolio](https://codebasics.io/portfolio/ErickKiprotich-Yegon)
+📩 **keyegon@gmail.com** &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/erickyegon) &nbsp;|&nbsp; 🆔 [ORCID](https://orcid.org/0000-0002-7055-4848)
 
 </div>
