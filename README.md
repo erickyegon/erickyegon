@@ -70,18 +70,17 @@ I have spent 17+ years in epidemiology, global health analytics, data science an
 
 ## Impact at a Glance
 
-<!-- VERIFY: rows 5-8 and the publications row come from the previous profile README and are not stated in any repo. Confirm against resume before publishing, or delete. ORCID lists 1 work (a Lancet item); the previous text said "30+ articles incl. The Lancet Global Health". -->
 | What I built | Result |
 |---|---|
 | **Immunization defaulter risk engine** (Kenya MOH eCHIS) | ROC-AUC 0.892 · 6,864 children · 4,672 CHW areas · [live app](https://immunizationengine.streamlit.app/) |
 | **Medicaid obesity-drug coverage study** | +12.2 prescriptions per 1,000 enrollees per quarter (95% CI 8.4 to 16.0); about $161.3M net over five years per 1M enrollees · [incretin-access-value](https://github.com/erickyegon/incretin-access-value) |
 | **Oncology RWD pipeline validated against a known truth** | 98.1% line-of-therapy exact match; 10-seed Monte-Carlo bias and coverage · [nsclc-rwd-truth-recovery](https://github.com/erickyegon/nsclc-rwd-truth-recovery) |
 | **CertiAce Retail Analytics** (Fabric portfolio) | Medallion lakehouse · 555K rows · DAX · KQL · RLS/OLS · deployment pipelines |
-| ML predictive models for health outcomes | ~30% improvement in prediction accuracy |
-| Automated data pipelines (ClickHouse + Python + dbt) | Reporting latency: 10–14 days → **real-time** |
-| Causal inference and RWE studies | 25+ production studies informing program decisions |
-| Healthcare analytics platforms | Scale: **8.5M+ individuals** across multiple health systems |
-| Peer-reviewed publications | Including *The Lancet* · [ORCID](https://orcid.org/0000-0002-7055-4848) |
+| ML predictive models for health outcomes | 30% improvement in prediction accuracy |
+| Automated data pipelines (AWS + PostgreSQL + dbt) | Reporting turnaround: 10–14 days → near real-time; manual processing down 40% |
+| Causal inference and RWE studies | 25+ studies (PSM, IPW, DiD, ITS, TMLE) informing $2M+ in annual resource allocation |
+| Data and analytics for community health programs | Programs reaching 8.5M+ people in Kenya, Uganda and Burkina Faso |
+| Peer-reviewed publications | 30+, including The Lancet (2025) |
 
 ---
 
@@ -122,16 +121,12 @@ I have spent 17+ years in epidemiology, global health analytics, data science an
 
 ## Certifications
 
-<!-- VERIFY: confirm exact credential names and status for each row, in particular the AWS and Stanford entries. -->
 | Certification | Issuer | Status |
 |---|---|---|
-| **Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)** | Microsoft | ✅ 2026 |
-| **Microsoft Certified: Power BI Data Analyst Associate (PL-300)** | Microsoft | ✅ 2024 |
-| Machine Learning in Medicine | Stanford University | ✅ |
-| AWS Certified Data Science & Analytics | Amazon Web Services | ✅ |
+| Microsoft Certified: Power BI Data Analyst Associate (PL-300) | Microsoft | ✅ |
 | Google Data Analytics Professional Certificate | Google | ✅ |
-| DataCamp Machine Learning Scientist Track | DataCamp | ✅ |
-| LLMOps (186+ hrs, 6 production projects) | Multiple platforms | ✅ |
+| CITI Program: Human Subjects Research; Good Clinical Practice; Big Data and Data Science Research Ethics | CITI Program | ✅ |
+| Microsoft Fabric Analytics Engineer (DP-600) | Microsoft | In preparation |
 
 ---
 
