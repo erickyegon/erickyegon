@@ -3,7 +3,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/erickyegon)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--7055--4848-A6CE39?style=flat&logo=orcid)](https://orcid.org/0000-0002-7055-4848)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Project%20sites-FF6B35?style=flat)](https://erickyegon.github.io/incretin-access-value/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-erickyegon.github.io-FF6B35?style=flat)](https://erickyegon.github.io)
 [![Email](https://img.shields.io/badge/Email-keyegon@gmail.com-D14836?style=flat&logo=gmail)](mailto:keyegon@gmail.com)
 
 📍 Richmond, Kentucky, USA &nbsp;|&nbsp; 🇺🇸 U.S. Permanent Resident — No Sponsorship Required
@@ -12,7 +12,7 @@
 
 ## What I Do
 
-I have spent 17+ years in epidemiology, global health analytics, data science and agentic AI, underpinned by doctoral training in epidemiology. I build the analysis and the system around it: cohort and survival studies on real-world data, causal designs for policy questions, and the pipelines, models and apps that put results in front of decision makers.
+I have spent [CONFIRM: years of experience] in epidemiology, global health analytics, data science and agentic AI, underpinned by doctoral training in epidemiology. I build the analysis and the system around it: cohort and survival studies on real-world data, causal designs for policy questions, and the pipelines, models and apps that put results in front of decision makers.
 
 **Core areas** (each links to a repo that shows it):
 
@@ -29,7 +29,7 @@ I have spent 17+ years in epidemiology, global health analytics, data science an
 | Project | What it shows | Stack |
 |---|---|---|
 | [**oncology-rwe-nsclc**](https://github.com/erickyegon/oncology-rwe-nsclc) · [report](https://erickyegon.github.io/oncology-rwe-nsclc/report.html) | NSCLC survival pipeline on synthetic EHR data (Synthea → OMOP CDM → dbt → R), benchmarked against 172,582 U.S. patients from SEER. Documents a case where the synthetic data failed validation: unmodified Synthea staged every lung cancer as stage I. | R · OMOP CDM · dbt · PostgreSQL |
-| [**nsclc-rwd-truth-recovery**](https://github.com/erickyegon/nsclc-rwd-truth-recovery) | Companion project: a custom generator with a known truth, rule-based line-of-therapy derivation (98.1% whole-sequence exact match against truth), IPTW, an immortal-time-bias demonstration, and a 10-seed Monte-Carlo bias and coverage study. | Python · lifelines · scikit-learn |
+| [**nsclc-rwd-truth-recovery**](https://github.com/erickyegon/nsclc-rwd-truth-recovery) | Companion project: a custom generator with a known truth, rule-based line-of-therapy derivation (98.1% whole-sequence exact match against truth), IPTW, an immortal-time-bias demonstration, and a 10-seed Monte-Carlo bias and coverage study (a larger, pre-specified simulation study with Monte Carlo error is in progress). | Python · lifelines · scikit-learn |
 | [**incretin-access-value**](https://github.com/erickyegon/incretin-access-value) · [site](https://erickyegon.github.io/incretin-access-value/) | Public-data study of Medicaid coverage of Wegovy and Zepbound: 12.2 additional prescriptions per 1,000 enrollees per quarter (95% CI 8.4 to 16.0) and a net budget impact of about $161.3 million over five years for a 1-million-enrollee program. Tested warehouse, Quarto report, interactive budget model. | PostgreSQL · dbt · R · Quarto · Shiny |
 
 ---
@@ -50,7 +50,7 @@ I have spent 17+ years in epidemiology, global health analytics, data science an
 
 | Project | Description | Stack |
 |---|---|---|
-| [Clinical Document Intelligence](https://github.com/erickyegon/clinical-doc-intelligence) | FDA drug-label RAG with 5-stage retrieval, multi-agent orchestration, clinical guardrails and 54 automated tests. | Python · FastAPI · ChromaDB |
+| [Clinical Document Intelligence](https://github.com/erickyegon/clinical-doc-intelligence) | FDA drug-label RAG with 5-stage retrieval, multi-agent orchestration, clinical guardrails and automated unit tests (no evaluation benchmark yet). | Python · FastAPI · ChromaDB |
 | [AgentCare](https://github.com/erickyegon/AgentCare) | Six-agent LangGraph orchestration for patient administration and care coordination. | Python · LangGraph · FastAPI · Next.js |
 | [Women's Health RAG](https://github.com/erickyegon/womens-health-rag) | RAG over Demographic and Health Survey reports. | Python · LangChain · LangGraph · pgvector |
 | [AI-Powered Research Assistant](https://github.com/erickyegon/AI-Powered-Research-Assistant-for-Scientific-Papers) | RAG platform for scientific papers with modular LangGraph workflows. | Python · LangGraph · Pinecone |
@@ -72,15 +72,15 @@ I have spent 17+ years in epidemiology, global health analytics, data science an
 
 | What I built | Result |
 |---|---|
-| **Immunization defaulter risk engine** (Kenya MOH eCHIS) | ROC-AUC 0.892 · 6,864 children · 4,672 CHW areas · [live app](https://immunizationengine.streamlit.app/) |
+| **Immunization defaulter risk engine** ([CONFIRM: country and program]) | ROC-AUC 0.892 · 6,864 children · 4,672 CHW areas · [live app](https://immunizationengine.streamlit.app/) |
 | **Medicaid obesity-drug coverage study** | +12.2 prescriptions per 1,000 enrollees per quarter (95% CI 8.4 to 16.0); about $161.3M net over five years per 1M enrollees · [incretin-access-value](https://github.com/erickyegon/incretin-access-value) |
-| **Oncology RWD pipeline validated against a known truth** | 98.1% line-of-therapy exact match; 10-seed Monte-Carlo bias and coverage · [nsclc-rwd-truth-recovery](https://github.com/erickyegon/nsclc-rwd-truth-recovery) |
+| **Oncology RWD pipeline validated against a known truth** | 98.1% line-of-therapy exact match; Monte-Carlo bias and coverage (10 seeds so far; larger study in progress) · [nsclc-rwd-truth-recovery](https://github.com/erickyegon/nsclc-rwd-truth-recovery) |
 | **CertiAce Retail Analytics** (Fabric portfolio) | Medallion lakehouse · 555K rows · DAX · KQL · RLS/OLS · deployment pipelines |
-| ML predictive models for health outcomes | 30% improvement in prediction accuracy |
-| Automated data pipelines (AWS + PostgreSQL + dbt) | Reporting turnaround: 10–14 days → near real-time; manual processing down 40% |
-| Causal inference and RWE studies | 25+ studies (PSM, IPW, DiD, ITS, TMLE) informing $2M+ in annual resource allocation |
+| ML predictive models for health outcomes | [CONFIRM: accuracy gain, metric and comparator] |
+| Automated data pipelines (AWS + PostgreSQL + dbt) | Reporting turnaround: 10–14 days → [CONFIRM: near real-time or about 48 hours]; manual processing down 40% |
+| Causal inference and RWE studies | 25+ studies [CONFIRM: methods you ran personally; resource-allocation figure and its source] |
 | Data and analytics for community health programs | Programs reaching 8.5M+ people in Kenya, Uganda and Burkina Faso |
-| Peer-reviewed publications | 30+, including The Lancet (2025) |
+| Peer-reviewed publications | [CONFIRM: count], including The Lancet (2025) |
 
 ---
 
@@ -138,15 +138,14 @@ I pair statistical rigor with working software. I check my methods against a kno
 
 ## Open To
 
-**Hands-on and leadership roles** across real-world evidence, epidemiology, health data science and applied AI:
+**Senior and leadership roles in real-world evidence, HEOR and observational research:**
 
-- **Real-World Evidence Scientist / Epidemiologist**
-- **Senior / Principal / Lead Data Scientist** (healthcare and clinical)
-- **Population Health Analytics Lead**
-- **Analytics Engineer / Microsoft Fabric Engineer**
-- **Director / VP, Data & Analytics**
+- **Principal / Senior Real-World Evidence Scientist or Epidemiologist**
+- **Principal / Senior Scientist, HEOR and outcomes research**
+- **Director, Real-World Evidence / Evidence Generation**
+- **Healthcare payer analytics:** evidence generation and decision support
 
-**Target sectors:** Pharma · Biotech · CRO · Health Systems · Payers & Insurers · Health Tech · Global Health · Federal Contractors
+**Target sectors:** Pharma · Biotech · CRO · Payers & Insurers · Health Systems · Research Organizations
 
 ---
 
