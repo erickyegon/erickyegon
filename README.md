@@ -145,6 +145,8 @@ I pair statistical rigor with working software. I check my methods against a kno
 - **Director, Real-World Evidence / Evidence Generation**
 - **Healthcare payer analytics:** evidence generation and decision support
 
+Also open to senior healthcare analytics and data science roles.
+
 **Target sectors:** Pharma · Biotech · CRO · Payers & Insurers · Health Systems · Research Organizations
 
 ---
